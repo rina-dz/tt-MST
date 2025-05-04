@@ -9,11 +9,12 @@
 .third-section__container {
     position: relative;
     border: 2px solid rgb(213, 201, 190);
+    border-right: 0;
+    border-bottom: 0;
     border-radius: 30px;
     background: rgb(255, 255, 255);
     width: 83%;
     min-width: 580px;
-    overflow: hidden;
 }
 
 .third-section__form {
@@ -115,7 +116,7 @@
 .third-section__img {
     position: absolute;
     bottom: 0;
-    height: 100%;
+    height: 120%;
     right: 0;
 }
 
@@ -133,51 +134,52 @@
         width: 90%;
         min-width: 290px;
     }
-    
+
     .third-section__form {
         width: 90%;
         margin: 72.5px auto 71.5px;
     }
-    
+
     .third-section__title {
         padding: 0 10px;
-        width: min-content;
-        font-size: 3rem;
+        white-space: wrap;
+        width: 90%;
+        font-size: 2.7rem;
         margin-bottom: 25px;
     }
-    
+
     .third-section__input {
         width: 85%;
         padding: 10px 15px 10px 25px;
         font-size: 1.5rem;
         margin-bottom: 13px;
     }
-    
+
     .third-section__checkbox-container {
         margin-top: 0;
     }
-    
+
     .third-section__checkbox {
         width: 16px;
         height: 16px;
         margin: 0 8px 0;
     }
-    
+
     .third-section__checkbox-label {
         font-size: 1.1rem;
     }
-    
+
     .third-section__button {
         width: 50%;
         font-size: 1.2rem;
         padding: 15px 0;
         margin-top: 20px;
     }
-    
+
     .third-section__img {
         bottom: 0;
         right: 0;
-        width: 85%;
+        width: 90%;
         object-fit: cover;
     }
 }

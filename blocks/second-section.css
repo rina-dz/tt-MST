@@ -106,7 +106,7 @@
         width: 100%;
     }
 
-    .second-section__img:last-child {
+    .second-section__img:first-child {
         display: none;
     }
 
