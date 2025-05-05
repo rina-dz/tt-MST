@@ -118,6 +118,7 @@
     bottom: 0;
     height: 120%;
     right: 0;
+    border-bottom-right-radius: 30px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -179,6 +180,8 @@
     .third-section__img {
         bottom: 0;
         right: 0;
+        height: auto;
+        max-height: 125%;
         width: 90%;
         object-fit: cover;
     }
